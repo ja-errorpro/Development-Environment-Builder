@@ -4,7 +4,7 @@
 
 此腳本僅供學習與研究使用，僅經過虛擬環境簡單測試，不保證能在所有環境下正常運作，由於腳本會直接覆蓋舊資料，包含 VSCode 設定檔、環境變數，**建議在新的環境下執行此腳本**，使用者需自行承擔風險。
 
-## `installps1` 會為新電腦安裝以下軟體；
+## `install.ps1` 會為新電腦安裝以下軟體
 
 * Chocolatey - 如同 Linux 下 APT、Pacman、yum 的 Windows 軟體套件管理器
 * Notepad++ - 更好的記事本
@@ -13,7 +13,7 @@
 * Git - 版本控制軟體
 * VSCode - IDE
 
-## `install_IDEA.ps1` 會為新電腦安裝以下軟體；
+## `install_IDEA.ps1` 會為新電腦安裝以下軟體
 
 * Chocolatey - 如同 Linux 下 APT、Pacman、yum 的 Windows 軟體套件管理器
 * IntelliJ IDEA Community - Java 開發 IDE
