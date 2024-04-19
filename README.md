@@ -16,6 +16,9 @@
 ## `install_IDEA.ps1` 會為新電腦安裝以下軟體
 
 * Chocolatey - 如同 Linux 下 APT、Pacman、yum 的 Windows 軟體套件管理器
+* Open JDK - Java 開發套件
+* Maven - Java 專案管理套件
+* Gradle - Java 專案管理套件
 * IntelliJ IDEA Community - Java 開發 IDE
 
 ## 編譯器
