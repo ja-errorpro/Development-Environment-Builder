@@ -1,10 +1,10 @@
-# VSCode 開發環境建立腳本
+# 開發環境建立腳本
 
 ## 聲明
 
 此腳本僅供學習與研究使用，僅經過虛擬環境簡單測試，不保證能在所有環境下正常運作，由於腳本會直接覆蓋舊資料，包含 VSCode 設定檔、環境變數，**建議在新的環境下執行此腳本**，使用者需自行承擔風險。
 
-## 此腳本會為新電腦安裝以下軟體；
+## `installps1` 會為新電腦安裝以下軟體；
 
 * Chocolatey - 如同 Linux 下 APT、Pacman、yum 的 Windows 軟體套件管理器
 * Notepad++ - 更好的記事本
@@ -12,6 +12,11 @@
 * .Net SDK - 基本的 .Net 開發環境支援（可選）
 * Git - 版本控制軟體
 * VSCode - IDE
+
+## `install_IDEA.ps1` 會為新電腦安裝以下軟體；
+
+* Chocolatey - 如同 Linux 下 APT、Pacman、yum 的 Windows 軟體套件管理器
+* IntelliJ IDEA Community - Java 開發 IDE
 
 ## 編譯器
 
@@ -46,7 +51,7 @@ $dir = "C:\"
 
 ## VSCode 擴充套件
 
-腳本會安裝以下 VSCode 擴充套件：
+`install.ps1` 會安裝以下 VSCode 擴充套件：
 
 * Code Runner
 * C/C++ 相關套件
@@ -56,6 +61,8 @@ $dir = "C:\"
 * Snippet-Creator - 用於建立程式碼片段
 
 ## 使用方式
+
+### VSCode
 
 1. 下載 `install.ps1`
 2. 以系統管理員身分執行 PowerShell，並切換到 `install.ps1` 所在的資料夾
@@ -67,3 +74,16 @@ Set-ExecutionPolicy Bypass -Scope Process -Force
 
 4. 使用 `.\install.ps1` 執行腳本
 5. 開始使用 VSCode！
+
+### IntelliJ IDEA
+
+1. 下載 `install_IDEA.ps1`
+2. 以系統管理員身分執行 PowerShell，並切換到 `install_IDEA.ps1` 所在的資料夾
+3. 輸入以下指令以允許執行腳本
+
+```ps
+Set-ExecutionPolicy Bypass -Scope Process -Force
+```
+
+4. 使用 `.\install_IDEA.ps1` 執行腳本
+5. 開始使用 IntelliJ IDEA！
